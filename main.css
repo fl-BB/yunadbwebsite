@@ -20,7 +20,7 @@
 *{
 	user-select:none;font-family: 'Noto Sans JP'!important;}
 body{
-	border:3px solid rgb(23,26,29);border-top:none;color: rgb(255,255,255);overflow: hidden !important;font-family: 'Noto Sans JP', sans-serif;justify-content:center;text-align: center;background-color:rgb(14,17,20);margin:0;}
+	border:3px solid rgb(23,26,29);border-top:none;color: rgb(255,255,255);overflow: hidden;font-family: 'Noto Sans JP', sans-serif;justify-content:center;text-align: center;background-color:rgb(14,17,20);margin:0;}
 h1{
 	display: inline;padding:0 10px;margin: 0;}
 nav{
