@@ -26,7 +26,7 @@ h1{
 nav{
     height:53px;background-color: rgb(14,17,20);padding: 2px 10px;text-decoration: none;margin: 0px -3px 3px;z-index:41 !important;border-bottom: 3px solid rgb(23,26,29);text-align:left;}
 .logo{
-	width:53px;height:53px;float:left;margin:0;padding:0;background-size: cover;background-image: url('./imgs/image2vector.svg');}
+	width:53px;height:53px;float:left;margin:0;padding:0;background-size: cover;background-image: url('./icon.svg');}
 .navbutton {
 	background-color: inherit;float: center;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;font-size: 17px;color:white;}
 .navbutton:hover {
