@@ -20,7 +20,7 @@
 *{
 	user-select:none;font-family: 'Noto Sans JP'!important;}
 body{
-	border:3px solid rgb(23,26,29);border-top:none;color: rgb(255,255,255);font-family: 'Noto Sans JP', sans-serif;justify-content:center;text-align: center;background-color:rgb(14,17,20);margin:0;}
+	color: rgb(255,255,255);font-family: 'Noto Sans JP', sans-serif;justify-content:center;text-align: center;background-color:rgb(14,17,20);margin:0;overflow-y: auto;overflow-x: hidden;}
 h1{
 	display: inline;padding:0 10px;margin: 0;}
 nav{
@@ -40,7 +40,7 @@ nav{
 .tab {
   	overflow: hidden;z-index:40 !important;}
 .tab button {
-	background-color: inherit;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;font-size: 17px;color:white;}
+	z-index:40;background-color: inherit;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;font-size: 17px;color:white;}
 .tab button:hover {
 	background-color: rgb(23,26,29);border-radius:5px;}
 .tab button.active {
@@ -48,9 +48,9 @@ nav{
 .tabcontent {
 	display: none;border-top: none;width:100%;z-index:40 !important;height:100%;}
 .sidetab {
-	background:none;width: 25%;overflow-y: auto;height:100%;}
+	z-index:40;background:none;width: 25%;overflow-y: auto;height:100%;}
 .sidetab button {
-	display: block;background: none;color:white;padding: 11px 8px;width: 100%;border: none;outline: none;text-align: center;cursor: pointer;transition: 0.3s;font-size: 17px;}
+	z-index:40;display: block;background: none;color:white;padding: 11px 8px;width: 100%;border: none;outline: none;text-align: center;cursor: pointer;transition: 0.3s;font-size: 17px;}
 .sidetab button:hover {
 	background-color: rgb(23,26,29);}
 .sidetab button.active {
